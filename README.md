@@ -1,10 +1,8 @@
 Interpretador de Números
  
 Você trabalha para um banco, que recentemente comprou uma máquina muito engenhosa para auxiliar na leitura de cartas e faxes enviados para o escritório-central. Esta máquina escaneia os documentos em papel e produz um arquivo com um grande número de entradas, sendo que cada uma tem este formato:
- 
-     __  __        __   __  __   __   __   __ 
-  |  __| __| |__| |__  |__    | |__| |__| |  |
-  | |__  __|    |  __| |__|   | |__|  __| |__|
+
+
 
 Cada entrada possui 4 linhas, e cada linha possui 40 caracteres. 
  
