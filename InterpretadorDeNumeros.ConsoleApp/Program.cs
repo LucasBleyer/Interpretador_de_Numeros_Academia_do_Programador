@@ -8,21 +8,21 @@ namespace InterpretadorDeNumeros.ConsoleApp
         static void Main(string[] args)
         {
             string entradas = @"
-             __  __ __   __  __      __  __     
-            |__ |__   | |__||__|   | __| __||__|
-             __||__|  | |__| __|   ||__  __|   |
+ __  __ __   __  __      __  __     
+|__ |__   | |__||__|   | __| __||__|
+ __||__|  | |__| __|   ||__  __|   |
 
-             __      __  __      __  __  __  __ 
-             __||__|   ||__|   | __||__ |__ |__|
-             __|   |   ||__|   ||__  __||__| __|
+ __      __  __      __  __  __  __ 
+ __||__|   ||__|   | __||__ |__ |__|
+ __|   |   ||__|   ||__  __||__| __|
 
-             __  __  __  __  __       __  __    
-             __| __||__ |__ |__| |__|   ||__|  |
-             __||__  __||__| __|    |   ||__|  |
+ __  __  __  __  __       __  __    
+ __| __||__ |__ |__| |__|   ||__|  |
+ __||__  __||__| __|    |   ||__|  |
 
-             __  __  __  __  __  __      __     
-            |  | __||__ |__    ||__|   ||__||__|
-            |__||__  __||__|   ||__|   |   |   |
+ __  __  __  __  __  __      __     
+|  | __||__ |__    ||__|   ||__||__|
+|__||__  __||__|   ||__|   |   |   |
             ";
 
             StringReader linhas = new StringReader(entradas);
@@ -62,10 +62,23 @@ namespace InterpretadorDeNumeros.ConsoleApp
             Console.WriteLine(linha12);
             linhas.ReadLine();
 
-            Console.WriteLine("\r\n------------------------------------------------------------");
+            char[] l1 = linha1.ToCharArray();
+            char[] l2 = linha2.ToCharArray();
+            char[] l3 = linha3.ToCharArray();
+            char[] l4 = linha4.ToCharArray();
+            char[] l5 = linha5.ToCharArray();
+            char[] l6= linha6.ToCharArray();
+            char[] l7 = linha7.ToCharArray();
+            char[] l8 = linha8.ToCharArray();
+            char[] l9 = linha9.ToCharArray();
+            char[] l10 = linha10.ToCharArray();
+            char[] l11 = linha11.ToCharArray();
+            char[] l12 = linha11.ToCharArray();
 
+            Console.WriteLine("\r\n------------------------------------------------------------");
             Console.WriteLine("\r\nSaída:");
 
+            
         }
     }
 }
